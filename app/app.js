@@ -12,10 +12,10 @@ import {
   VerifyDiscordRequest,
   getRandomEmoji,
   DiscordRequest,
-} from "./utils.js";
-import { getShuffledOptions, getResult } from "./game.js";
+} from "../utils.js";
+import { getShuffledOptions, getResult } from "../game.js";
 import cron from "node-cron";
-import notify from "./notify.js";
+import notify from "../notify.js";
 
 const app = next({ dev });
 
